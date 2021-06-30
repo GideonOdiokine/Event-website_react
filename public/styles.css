@@ -354,7 +354,7 @@ footer .footer_copyright {
   text-align: center;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .countdown_wrapper .countdown_time {
     font-size: 15px;
   }
@@ -365,5 +365,11 @@ footer .footer_copyright {
 @media (max-width: 322px) {
   .artist_name {
     display: none;
+  }
+  .countdown_wrapper .countdown_time {
+    font-size: 12px;
+  }
+  .countdown_wrapper .countdown_tag {
+    padding-left: 0;
   }
 }
