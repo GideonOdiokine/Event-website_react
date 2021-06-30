@@ -352,7 +352,7 @@ footer .footer_copyright {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .countdown_wrapper .countdown_time {
     font-size: 17px;
   }
