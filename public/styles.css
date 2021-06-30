@@ -369,13 +369,13 @@ footer .footer_copyright {
     font-size: 18px;
   }
   .artist_name .wrapper {
-    /* border: 2px solid white; */
-    height: 121px;
-    margin: auto 8px;
+    border: none;
+    height: 0;
+    margin: 0;
     text-align: center;
-    width: 200px;
+    /* width: 200px; */
     color: #fff;
-    font-size: 40px;
+    font-size: 18px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
   }
