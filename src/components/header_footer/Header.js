@@ -34,7 +34,7 @@ class Header extends Component {
         <Toolbar>
           <div className="header_logo">
             <div className="font-righteous header_logo_venue">NANCY.</div>
-            <div className="header_logo_title">Musical Events</div>
+            <div className="header_logo_title">Markup Events</div>
           </div>
           <IconButton
             aria-label="Menu"
