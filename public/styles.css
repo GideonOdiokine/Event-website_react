@@ -1,10 +1,12 @@
-* {
-  padding: 0;
-  margin: 0;
+/* * {
+ 
   box-sizing: border-box;
-}
+} */
 body {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .font_righteous {
@@ -352,9 +354,9 @@ footer .footer_copyright {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width:600px) {
   .countdown_wrapper .countdown_time {
-    font-size: 17px;
+    font-size: 15px;
   }
   .countdown_wrapper .countdown_tag {
     padding-left: 0;
