@@ -366,7 +366,18 @@ footer .footer_copyright {
   .artist_name {
     display: block;
     border: none;
-    font-size: medium;
+    font-size: 18px;
+  }
+  .artist_name .wrapper {
+    /* border: 2px solid white; */
+    height: 121px;
+    margin: auto 8px;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
   }
   .countdown_wrapper .countdown_time {
     font-size: 12px;
@@ -374,7 +385,7 @@ footer .footer_copyright {
   .countdown_wrapper .countdown_tag {
     padding-left: 0;
   }
-  .countdown_wrapper{
+  .countdown_wrapper {
     width: 300px;
     display: none;
   }
