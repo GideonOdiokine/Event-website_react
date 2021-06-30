@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/fade";
+import Fade from "react-reveal/Fade";
 
 export default class Countdown extends Component {
   render() {
