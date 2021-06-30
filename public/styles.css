@@ -372,4 +372,7 @@ footer .footer_copyright {
   .countdown_wrapper .countdown_tag {
     padding-left: 0;
   }
+  .countdown_wrapper{
+    width: 300px;
+  }
 }
