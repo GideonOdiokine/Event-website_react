@@ -362,9 +362,11 @@ footer .footer_copyright {
     padding-left: 0;
   }
 }
-@media (max-width: 322px) {
+@media (max-width: 321px) {
   .artist_name {
-    display: none;
+    display: block;
+    border: none;
+    font-size: medium;
   }
   .countdown_wrapper .countdown_time {
     font-size: 12px;
@@ -374,5 +376,6 @@ footer .footer_copyright {
   }
   .countdown_wrapper{
     width: 300px;
+    display: none;
   }
 }
