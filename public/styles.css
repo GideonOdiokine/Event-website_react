@@ -232,12 +232,15 @@ footer .footer_copyright {
   font-weight: 300;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  padding: 30px 40px;
+  /* padding: 30px 70px; */
+  
+  text-align: center;
 }
 
 .discount_wrapper {
   display: flex;
-  padding: 70px 0px;
+  padding: 70px 30px;
+  justify-content: center;
 }
 
 .discount_wrapper .discount_porcentage {
@@ -362,6 +365,10 @@ footer .footer_copyright {
   }
 }
 @media (max-width: 600px) {
+  .discount_wrapper{
+    display: block;
+
+  }
   .center_wrapper {
     /* max-width: 30%; */
     margin: 0 50px;
