@@ -366,10 +366,13 @@ footer .footer_copyright {
   }
 }
 @media (max-width: 600px) {
-  .discount_wrapper .discount_porcentage span:nth-child(1){
+  .footer_logo_venue {
+    font-size: 32px;
+  }
+  .discount_wrapper .discount_porcentage span:nth-child(1) {
     font-size: 55px;
   }
-  .discount_wrapper .discount_porcentage span:nth-child(2){
+  .discount_wrapper .discount_porcentage span:nth-child(2) {
     font-size: 24px;
   }
   .discount_wrapper {
