@@ -7,10 +7,9 @@ function Description() {
       <div className="center_wrapper">
         <h2>Highlights</h2>
         <div className="highlight_description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          eius eligendi quia inventore atque recusandae, quas quod impedit
-          blanditiis. Exercitationem ipsam sint saepe, necessitatibus hic in eum
-          aliquam laboriosam nihil.
+          Nancy's Markup Event is an upcoming event that professional makeup
+          artist will come to compete with each other to see who will be the
+          winner of the event.
         </div>
       </div>
     </Fade>
