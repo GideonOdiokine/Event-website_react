@@ -1,7 +1,6 @@
-/* * {
- 
+* {
   box-sizing: border-box;
-} */
+}
 html {
   overflow-x: hidden;
 }
@@ -233,7 +232,7 @@ footer .footer_copyright {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
   /* padding: 30px 70px; */
-  
+
   text-align: center;
 }
 
@@ -294,6 +293,8 @@ footer .footer_copyright {
 .pricing_wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .pricing_wrapper .pricing_item {
   flex-grow: 1;
@@ -365,9 +366,14 @@ footer .footer_copyright {
   }
 }
 @media (max-width: 600px) {
-  .discount_wrapper{
+  .discount_wrapper .discount_porcentage span:nth-child(1){
+    font-size: 55px;
+  }
+  .discount_wrapper .discount_porcentage span:nth-child(2){
+    font-size: 24px;
+  }
+  .discount_wrapper {
     display: block;
-
   }
   .center_wrapper {
     /* max-width: 30%; */

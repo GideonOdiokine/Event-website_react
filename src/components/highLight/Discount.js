@@ -27,7 +27,7 @@ const Discount = () => {
       <div className="discount_wrapper">
         <Fade>
           <div className="discount_porcentage">
-            <span>{countStart} %</span>
+            <span>{countStart}%</span>
             <span>OFF</span>
           </div>
         </Fade>
