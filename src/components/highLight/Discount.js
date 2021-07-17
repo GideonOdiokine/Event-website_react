@@ -9,18 +9,21 @@ import Button from "../utis/Button";
 
 const Discount = () => {
   const [countStart, setCountStart] = useState(0);
+
+  // eslint-disable-next-line
   const [countEnd, setCountEnd] = useState(30);
+  useEffect(() => {
+    setTimeout(() => {
+      percentage();
+    }, 30);
+    // eslint-disable-next-line
+  }, [countStart]);
 
   const percentage = () => {
     if (countStart < countEnd) {
       setCountStart(countStart + 1);
     }
   };
-  useEffect(() => {
-    setTimeout(() => {
-      percentage();
-    }, 30);
-  }, [countStart]);
 
   return (
     <div className="center_wrapper">
