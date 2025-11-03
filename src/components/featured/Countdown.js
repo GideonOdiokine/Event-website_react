@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 export default class Countdown extends Component {
   state = {
-    deadline: "Dec, 16, 2021",
+    deadline: "Dec, 16, 2025",
     days: "0",
     hours: "0",
     minutes: "0",
